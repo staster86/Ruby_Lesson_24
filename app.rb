@@ -26,9 +26,17 @@ post '/visit' do
 	phone = params[:phone]
 	datetime = params[:datetime]
 
-	if username == ''
-		@error = 'Введите имя'
-		return erb :visit
+	hh = { 	:username => 'Введите имя',
+			:phone => 'Введите телефон',
+		 	:datetime => 'Введите датуи время' }
+
+	#Для каждой пары ключ-значение
+	hh.each do |key, value|
+		#Если параметр пуст
+		if params[key] == ''
+			@error = hh[key]
+			return erb :visit
+		end
 	end
 
 	f = File.open "./public/user.txt", "a"
