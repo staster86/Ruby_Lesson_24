@@ -1,0 +1,7 @@
+Master: Jessie Pinkman, User Stanislav, Phone 243343, Date and time: 22/22/2222 16:00
+Master: Jessie Pinkman, User Stanislav, Phone 243343, Date and time: 22/22/2222 16:00
+Barber: Gus Fring, User Stas, Phone 42342342334645, Date and time: 11.11.11
+Barber: Gus Fring, User Stas, Phone 243343, Date and time: 22/22/2222 16:00
+Barber: Gus Fring, User Stas, Phone 243343, Date and time: 22/22/2222 16:00
+Barber: Walter White, User Stas, Phone 243343, Date and time: 22/22/2222 16:00
+Barber: Jessie Pinkman, User Stas, Phone 243343, Date and time: 22/22/2222 16:00, Color #ff887c
