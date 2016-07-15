@@ -27,10 +27,10 @@ post '/visit' do
 	datetime = params[:datetime]
 
 	f = File.open "./public/user.txt", "a"
-	f.write "Barber: #{barber}, User #{username}, Phone #{phone}, Date and time: #{datetime}, Color #{color}\n"
+	f.write "Парикхмахер: #{barber}, Клиент: #{username}, Телефон #{phone}, Дата и время: #{datetime}, Цвет: #{color}\n"
 	f.close
 
-	erb "Ok! Barber: #{barber}, User #{username}, Phone #{phone}, Date and time: #{datetime}, Color #{color} you waiting!"
+	erb "Хорошо уважаемый #{username}! Ваш парикхмахер: #{barber}, телефон для связи с Вами #{phone}. Ждём Вас #{datetime} и покрасим ваши волосы в #{color} цвет."
 end
 
 post '/contacts' do
@@ -38,8 +38,8 @@ post '/contacts' do
 	message = params[:message]
 
 	f = File.open "./public/contacts.txt", "a"
-	f.write "Email: #{email}, Message: #{message}\n"
+	f.write "Почта: #{email}, Сообщение: #{message}\n"
 	f.close
 
-	erb :contacts
+	erb "Спасибо за отзыв! Мы учтём Ваши пожелания."
 end
