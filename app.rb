@@ -26,6 +26,11 @@ post '/visit' do
 	phone = params[:phone]
 	datetime = params[:datetime]
 
+	if username == ''
+		@error = 'Введите имя'
+		return erb :visit
+	end
+
 	f = File.open "./public/user.txt", "a"
 	f.write "Парикхмахер: #{barber}, Клиент: #{username}, Телефон #{phone}, Дата и время: #{datetime}, Цвет: #{color}\n"
 	f.close
