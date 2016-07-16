@@ -5,3 +5,4 @@ Barber: Gus Fring, User Stas, Phone 243343, Date and time: 22/22/2222 16:00
 Barber: Gus Fring, User Stas, Phone 243343, Date and time: 22/22/2222 16:00
 Barber: Walter White, User Stas, Phone 243343, Date and time: 22/22/2222 16:00
 Barber: Jessie Pinkman, User Stas, Phone 243343, Date and time: 22/22/2222 16:00, Color #ff887c
+Парикхмахер: Иван Иванов, Клиент: Stas, Телефон 8(099) 999-9999, Дата и время: 111111-11-11T11:11, Цвет: #dc2127
