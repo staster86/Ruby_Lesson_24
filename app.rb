@@ -28,7 +28,7 @@ post '/visit' do
 
 	hh = { 	:username => 'Введите имя',
 			:phone => 'Введите телефон',
-		 	:datetime => 'Введите датуи время' }
+		 	:datetime => 'Введите дату и время' }
 
 	#Для каждой пары ключ-значение
 	hh.each do |key, value|
